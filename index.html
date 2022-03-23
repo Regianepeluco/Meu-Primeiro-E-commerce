@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300&family=Roboto:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>E-commerce2</title>
+</head>
+
+<body>
+    <!-- -----Cabeçalho---- -->
+    <header class="header">
+        <div class="H1eLogo">
+            <h1>Loja Funko POP</h1>
+            <img src="/imgs/POP.png" alt="Logo POP">
+        </div>
+        <!-- -----Barra de Navegação---- -->
+        <section class="itens-navbar">
+            <nav class="navbar">
+                <ul>
+                    <li id="Todos">Todos</li>
+                    <li id="Disney">Disney</li>
+                    <li id="Star Wars">Star Wars</li>
+                    <li id="Harry Potter">Harry Potter</li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <!-- -----Conteúdo Principal---- -->
+    <div class="containerPai">
+        <main class="container">
+            <ul class="listaProdutos">
+                <!-- <li class="listaItem">
+                    <div>
+                        <img src="/imgs/Jaqueta grossa.png" alt="Jaqueta Grossa Preta">
+                        <span class="categoria">Camisetas</span>
+                    </div>
+                    <div>
+                        <h2>Lightweight Jacket</h2>
+                        <p>Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
+                        <p class="preco">R$100,00</p>
+                    </div>
+                    <button>Adicionar ao carrinho</button>                    
+                </li> -->
+            </ul>
+        </main>
+        <!-- -----Seção ao lado com carrinho e pesquisa---- -->
+        <aside class="carrinho-e-pesquisar">
+            <div class="carrinho">
+                <div class="pesquisar">
+                    <input type="text" name="" id="campoPesquisa" placeholder="Digite aqui sua pesquisa">
+                    <button class="button" id="buttonPesquisa">Pesquisar</button>
+                </div>
+                <h2>Carrinho de Compras</h2>
+                <ul id= "carrinho-final" class="carrinho-final"></ul>
+            </div>
+                <div id="divTotal">
+                    <div class="totalCSS">
+                        <span>Quantidade</span>                        
+                        <span id='spanQuantidade' class="valor">0</span>                        
+                    </div>
+                    <div class="totalCSS">
+                        <span>Total</span>                        
+                        <span id='spanPreco' class="valor">R$0,00</span>                        
+                    </div>                    
+                </div>  
+        </aside>
+    </div>
+    <footer>
+        <div class="pagamento">
+            <h2 class="h2">Formas de Pagamento</h2>
+                <div class="imgFooter">
+                    <img class= "mercado"src="https://cdn.sistemawbuy.com.br/img/bt-pgto-mercadopago.png" alt="Mercado Pago">
+                    <img class= "pix" src="https://cdn.sistemawbuy.com.br/img/bt-pgto-pix.png" alt="PIX">
+                    <img class= "visa"src="https://cdn.sistemawbuy.com.br/img/bandeiras/visa.png" alt="Visa">
+                    <img class= "master" src="https://cdn.sistemawbuy.com.br/img/bandeiras/mastercard.png" alt="Master">
+                    <img class="boleto" src="https://cdn.sistemawbuy.com.br/img/bandeiras/booklet.png" alt="Boleto">
+                </div>        
+        </div>        
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,410 @@
+body {
+    font-family: 'inter', sans-serif ;
+    margin: auto;
+    max-width:max-content;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: #F5F5F5;
+    
+}
+
+.H1eLogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;       
+    font-size: 30px;
+    color: #000000;
+    margin-left: 50px;
+}
+
+.header img{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.itens-navbar {    
+    height: 16px;
+    color: #828282;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;   
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+} 
+
+.navbar ul li {
+    font-size: 16px;
+    
+    padding: 17px;
+}
+
+.pesquisar input {
+    background-color: #F5F5F5;
+    padding: 10px;
+    border: 1px solid #F5F5F5;
+    box-sizing: border-box;
+    height: 50px;
+    width: 246px;
+    margin-bottom: 10px;
+}
+
+.button {
+    width: 96px;
+    height: 50px;
+    background-color: #238078;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: none;    
+}
+
+.carrinho-e-pesquisar {
+    margin-top: 15px;
+}
+
+.carrinho h2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    height: 50px;
+    background-color: #238078;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: none; 
+    text-align: center;
+    font-weight: bold;    
+}
+
+.carrinho-final {
+    display: flex;
+    height: 462px;
+    width: 347px;
+    background-color: #F5F5F5;
+    overflow: scroll;
+    justify-content: center;
+    flex-direction: column;      
+    align-items: center;   
+    
+}
+
+.carrinho-final p {
+    color: #333333;
+    font-weight: bold;
+    font-size: 22px;
+    
+}
+
+.carrinho-final span {
+    color: #828282;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.divCarrinho {
+    display: flex;
+    background-color: #F5F5F5;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;     
+}
+
+.liCarrinhoCSS  {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #F5F5F5;    
+    justify-content: center;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+#divTotal {   
+    background-color: #333333;
+    width: 343px;
+    height: 126px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: stretch;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold;    
+}
+
+.totalCSS {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+
+.valor {
+    font-size: 16px;
+    color: #828282;
+}
+
+
+.divCarrinhoCSSImg img {
+    width: 73px;
+    height: 61px;    
+}
+
+.divCarrinhoCSSTexto h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.divCarrinhoCSSTexto p {
+    display: flex;
+    justify-content: flex-start ;
+    align-items: center;
+    height: 21px;
+    font-size: 13px;
+    color: #238078;
+    font-weight: bold;
+    margin-left: 5px;    
+}
+
+.divCarrinhoCSSTexto button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    border: none; 
+    cursor: pointer;
+    color: #828282;    
+    background-color: #F5F5F5;    
+}
+
+.containerPai {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 1200px;    
+}
+
+.container ul  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
+    width: 800px;
+        
+}
+
+.container ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 376px;        
+}
+
+.container ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    background-color:  #FFFFFF;
+    box-sizing: border-box;
+    text-align: left
+}
+
+.container ul li div img{
+    display: flex;
+    background-color: #F5F5F5;    
+    height: 140px;
+}
+
+.container ul li div .categoria{
+    width: 72px;
+    height: 26px;
+    background-color: #238078;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;    
+}
+
+.container ul li div h2{
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 5px;
+    
+}
+
+.container ul li div p{
+    width: 215px;
+    color: #828282;
+    font-size: 12px;
+    margin-top: 10px;    
+    margin-left: 5px;        
+}
+
+.container ul li div .preco{
+    color: #238078;
+    font-size: 12px;
+    padding: 5px;   
+    font-weight: bold;
+    text-align: left;
+    
+}
+
+.container button {
+    color: #828282;
+    border: none;
+    font-size: 14px;
+    background-color: #FFFFFF;
+}
+
+.header h1:hover{
+    color: #333333;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration:underline;
+}
+
+.header img:hover{
+    color: #333333;
+    font-weight: bold;
+    cursor: pointer;    
+}
+
+.container button:hover {
+    color: #2d706b;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container ul li:hover {
+    border: 1.5px solid #2d706b;        
+}
+
+.navbar ul li:hover {
+    color: #333333;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration:underline;
+}
+
+.pesquisar input:hover {
+    color: #2d706b;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pesquisar button:hover {
+    background-color: #FFFFFF;
+    color: #2d706b;
+    border: 1px solid #2d706b;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.carrinho h2:hover {
+    background-color: #FFFFFF;
+    color: #2d706b;
+    font-weight: bold;
+    border: 1px solid #2d706b;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.divCarrinho button:hover {        
+    color: #2d706b;
+    font-weight: bold;  
+    text-decoration: underline;
+    border: none; 
+    cursor: pointer;        
+    background-color: #F5F5F5;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: #F5F5F5;
+}
+
+.pagamento {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.h2 {
+    
+    padding: 5px; 
+    font-size: 20px;
+    font-weight: bold;    
+    
+}
+
+.imgFooter{
+    
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.mercado {
+    width: 94px;
+    padding: 5px;   
+    
+}
+
+.pix {
+    width: 94px;
+    padding: 5px;   
+    
+}
+
+.visa {
+    width: 94px;
+    padding: 5px;   
+    
+}
+
+.master {
+    width: 94px;
+    padding: 5px;   
+    
+}
+
+.boleto {
+    width: 94px;
+    padding: 5px;   
+    
+}
