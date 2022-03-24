@@ -7,35 +7,35 @@ const dados = [
         preco: 200        
     },
     {
-        img: '/imgs/Harry Potter.JPG',        
+        img: './imgs/Harry Potter.JPG',        
         titulo:'Funko POP Harry Potter',
         categorias: 'Harry Potter',
         descricao:'Funko POP Harry Potter 112 - Wizarding World',
         preco: 200        
     },
     {
-        img: '/imgs/Zezé.JPG',   
+        img: './imgs/Zezé.JPG',   
         categorias: 'Disney',    
         titulo:'Funko POP Zezé',
         descricao:'Funko POP Zeze 367 - Disney Pixar',
         preco: 200        
     },
     {
-        img: '/imgs/Alvo Dumbledore.JPG',   
+        img: './imgs/Alvo Dumbledore.JPG',   
         categorias: 'Harry Potter',     
         titulo:'Funko POP Alvo Dumbledore',
         descricao:'Funko POP Alvo Dumbledore 04 - Wizarding World',
         preco: 200        
     },
     {
-        img: '/imgs/Mickey Feiticeiro.JPG', 
+        img: './imgs/Mickey Feiticeiro.JPG', 
         categorias: 'Disney',       
         titulo:'Funko POP Mickey Feiticeiro',
         descricao:'Funko POP Mickey Feiticeiro 993 - Disney Fantasia',
         preco: 200        
     },
     {
-        img: '/imgs/Yoda Baby.JPG',  
+        img: './imgs/Yoda Baby.JPG',  
         categorias: 'Star Wars',     
         titulo:'Funko POP Yoda Baby',
         descricao:'Funko POP Yoda Baby 468 - Star Wars',
